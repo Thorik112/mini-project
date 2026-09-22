@@ -23,15 +23,15 @@
 
       <nav class="nav-links" id="menu" aria-label="Main">
         <a href="{{ route('home') }}">Home</a>
-        <a href="{{ route('about') }}" class="active" aria-current="page">About Us</a>
+        <a href="{{ route('about') }}">About Us</a>
         <a href="{{ route('services') }}">Services</a>
-        <a href="{{ route('case-studies') }}">Case Studies</a>
+        <a href="{{ route('case-studies') }} class="active" aria-current="page"">Case Studies</a>
         <a href="{{ route('blog') }}">Blog</a>
         <a href="{{ route('contact') }}" class="menu-cta btn btn-primary btn-sm">Contact Us</a>
       </nav>
 
       <div class="nav-actions">
-        <a class="btn btn-primary btn-sm nav-contact" href="{{ route('contact-us') }}">Contact Us</a>
+        <a class="btn btn-primary btn-sm nav-contact" href="{{ route('contact') }}">Contact Us</a>
         <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
           <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
             <path class="bars" d="M4 7h16M4 12h16M4 17h16"/>

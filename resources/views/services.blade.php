@@ -23,8 +23,8 @@
 
       <nav class="nav-links" id="menu" aria-label="Main">
         <a href="{{ route('home') }}">Home</a>
-        <a href="{{ route('about') }}" class="active" aria-current="page">About Us</a>
-        <a href="{{ route('services') }}">Services</a>
+        <a href="{{ route('about') }}">About Us</a>
+        <a href="{{ route('services') }}" class="active" aria-current="page">Services</a>
         <a href="{{ route('case-studies') }}">Case Studies</a>
         <a href="{{ route('blog') }}">Blog</a>
         <a href="{{ route('contact') }}" class="menu-cta btn btn-primary btn-sm">Contact Us</a>
